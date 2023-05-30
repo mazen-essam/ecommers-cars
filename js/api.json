@@ -1,0 +1,38 @@
+[
+    {
+        "img":"imgs/SP38.jpg",
+        "img2":"imgs/SP38(1).jpg",
+        "Luggage":"4",
+        "Door":"3",
+        "Passenger":"6",
+        "Name":"Ferrari SP38",
+        "Price":"210$k"
+    },
+    {
+        "img":"imgs/458.jpeg",
+        "img2":"imgs/458(1).jpeg",
+        "Luggage":"10",
+        "Door":"4",
+        "Passenger":"6",
+        "Name":"Ferrari 458",
+        "Price":"230$k"
+    },
+    {
+        "img":"imgs/F12.jpg",
+        "img2":"imgs/F12(1).jpg",
+        "Luggage":"8",
+        "Door":"2",
+        "Passenger":"4",
+        "Name":"Ferrari F12",
+        "Price":"200$k"
+    },
+    {
+        "img":"imgs/lampo.jpg",
+        "img2":"imgs/lampo(1).jpg",
+        "Luggage":"4",
+        "Door":"2",
+        "Passenger":"5",
+        "Name":"lamborghini",
+        "Price":"280$k"
+    }
+]

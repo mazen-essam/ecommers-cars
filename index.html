@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      />
+
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+      <link rel="stylesheet" href="css/index.css" />
+      <title>Home</title>
+   </head>
+   <body>
+      <!-- nav bar start -->
+
+      <header id="nav">
+         <div class="container-fluid">
+            <div class="row">
+               <div
+                  class="col-lg-2 col-md-2 col-sm-2 row align-items-center justify-content-start"
+               >
+                  <div class="img col-lg-8 col-sm-12">
+                     <img src="imgs/leo-rent-car-logo-1533114693.jpg" alt="" />
+                  </div>
+               </div>
+               <div class="col-lg-8 col-md-8 col-sm-8">
+                  <ul>
+                     <li><a href="#"> Home</a></li>
+                     <li><a href="./listing.html"> Listing</a></li>
+                     <li><a href="./blog.html"> Blog</a></li>
+                     <li><a href="./contact.html"> Contact</a></li>
+                  </ul>
+               </div>
+               <div
+                  class="col-lg-2 col-md-2 col-sm-2 row justify-content-end align-items-center text-end"
+               >
+                  <div class="myaccount col-lg-8">
+                     <p>My Account</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- nav bar end -->
+
+      <!-- home section 1 start (welcome car) -->
+
+      <section class="welcome" id="welcome">
+         <div class="container w-75 mt-3">
+            <div class="row justify-content-center align-items-center">
+               <div class="col-lg-6 bg-primary">
+                  <p class="feature">feature car</p>
+                  <h1 class="mb-5 fw-light">
+                     Merscedes Benz <br />
+                     E300
+                  </h1>
+
+                  <p><i class="fa-solid fa-couch"></i>Seats : 4</p>
+                  <p>
+                     <i class="fa-solid fa-car-tunnel"></i>Manufacture year:
+                     2018
+                  </p>
+                  <p><i class="fa-solid fa-gear"></i>GearBox: Automatic</p>
+                  <p class="from_welcome">From <span>$250</span></p>
+               </div>
+               <div class="img">
+                  <img src="imgs/home2-bg-top.png" alt="" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end of first section welcome -->
+
+      <!-- start section search card -->
+
+      <section class="s_card" id="s_card">
+         <div class="float_img">
+            <div class="img">
+               <img src="imgs/home2-banner1.png" alt="" />
+            </div>
+         </div>
+         <div class="container">
+            <div class="text-center">
+               <h2 class="fs-1">How it works</h2>
+               <p class="text-primary fs-6">MAKE IT HAPPENS IN 3 STEPS</p>
+            </div>
+            <div class="row justify-content-end mt-5">
+               <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div
+                     class="item row justify-content-around align-items-center"
+                  >
+                     <div class="col-lg-2 col-md-4 col-sm-4 icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="overlay"></div>
+                     </div>
+                     <div class="col-lg-9 col-md-8 col-sm-8">
+                        <h2>01. Select your car</h2>
+                        <p>
+                           Select your car, choose your location, time and pick
+                           it up
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="item row justify-content-around align-items-center"
+                  >
+                     <div class="col-lg-2 col-md-4 col-sm-4 icon">
+                        <i class="fa-solid fa-book"></i>
+                        <div class="overlay"></div>
+                     </div>
+                     <div class="col-lg-9 col-md-8 col-sm-8">
+                        <h2>02. Define your booking</h2>
+                        <p>
+                           Fill your information into the form and go to next
+                           step
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="item row justify-content-around align-items-center"
+                  >
+                     <div class="col-lg-2 col-md-4 col-sm-4 icon">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <div class="overlay"></div>
+                     </div>
+                     <div class="col-lg-9 col-md-8 col-sm-8">
+                        <h2>03. Payment</h2>
+                        <p>
+                           Select your payment, click ok and It’s all done for
+                           you
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="row justify-content-center pos w-75"> -->
+            <div
+               class="col-lg-12 row justify-content-around align-items-center pos"
+            >
+               <form action="" id="from_search">
+                  <div class="row">
+                     <div class="form-group-search col-lg-4 col-sm-6">
+                        <label>Car Type</label>
+                        <div class="form-group-search input-group">
+                           <select
+                              class="apcarrental-location apcarrental-select"
+                              name="apcarrental_type"
+                           >
+                              <option value="">Car Type</option>
+                              <option value="6">BMW</option>
+                              <option value="3">Lamborghini</option>
+                              <option value="4">Lexus</option>
+                              <option value="2">Toyota</option>
+                              <option value="1">Chevrolet</option>
+                              <option value="5">Mazda</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="form-group-search col-md-4 col-sm-6">
+                        <label>Pick Up</label>
+                        <div class="form-group-search input-group">
+                           <input
+                              class="datepicker apcarrental_from hasDatepicker"
+                              autocomplete="off"
+                              placeholder=""
+                              type="date"
+                              name="apcarrental_from"
+                              value=""
+                              id="dp1678487417804"
+                           />
+                        </div>
+                     </div>
+                     <div class="form-group-search col-md-4 col-sm-6">
+                        <label>Drop Off</label>
+                        <div class="form-group-search input-group">
+                           <input
+                              class="datepicker apcarrental_to hasDatepicker"
+                              autocomplete="off"
+                              placeholder="Drop Off"
+                              type="date"
+                              name="apcarrental_to"
+                              value=""
+                              id="dp1678487417805"
+                           />
+                        </div>
+                     </div>
+                     <div
+                        class="form-group search-filter col-md-8 col-sm-6 col-xs-12"
+                     >
+                        <label>Prices</label>
+                        <p
+                           id="amount"
+                           data-currency="$"
+                           data-min="0"
+                           data-max="35.9"
+                        >
+                           $0 - $35.9
+                        </p>
+                        <p
+                           id="filter_price"
+                           data-currency="$"
+                           data-min="0"
+                           data-max="35.9"
+                        ></p>
+                        <div
+                           id="slider-range"
+                           class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                           aria-disabled="false"
+                        >
+                           <!-- <div
+                              class="ui-slider-range ui-widget-header ui-corner-all"
+                              style="left: 0%; width: 100%"
+                           ></div> -->
+                           <!-- <label for="customRange1" class="form-label"
+                              >Example range</label
+                           > -->
+                           <input
+                              type="range"
+                              class="form-range"
+                              id="customRange1"
+                           />
+                           <a
+                              class="ui-slider-handle ui-state-default ui-corner-all"
+                              href="#"
+                              style="left: 0%"
+                           ></a
+                           ><a
+                              class="ui-slider-handle ui-state-default ui-corner-all"
+                              href="#"
+                              style="left: 100%"
+                           ></a>
+                        </div>
+                        <input
+                           name="price_min"
+                           value="0"
+                           type="hidden"
+                           id="amount1"
+                        />
+                        <input
+                           name="price_max"
+                           value="35.9"
+                           type="hidden"
+                           id="amount2"
+                        />
+                     </div>
+                     <div
+                        class="form-group-search apcarrental-button col-md-4 col-sm-12 search_btn"
+                     >
+                        <button
+                           class="btn search_btn btn-primary"
+                           type="submit"
+                           name="search_product"
+                        >
+                           <a href="./listing.html" class="text-decoration-none"
+                              >Search now</a
+                           >
+                        </button>
+                     </div>
+                  </div>
+               </form>
+               <!-- </div> -->
+            </div>
+         </div>
+      </section>
+      <!-- End section search card -->
+
+      <!-- start section icons -->
+      <section class="ICONS" id="ICONS">
+         <div class="container">
+            <div class="item">
+               <div class="row justify-content-between">
+                  <div class="col-lg-4 col-md-4 row justify-content-start">
+                     <div class="col-lg-2">
+                        <i class="fa-solid fa-headset"></i>
+                     </div>
+                     <div class="col-lg-10">
+                        <h2>Premium Support</h2>
+                        <p>
+                           We’re available for helping you, including holiday
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 row justify-content-start">
+                     <div class="col-lg-2">
+                        <i class="fa-regular fa-star"></i>
+                     </div>
+                     <div class="col-lg-10">
+                        <h2>High quality cars</h2>
+                        <p>
+                           Our cars ‘re certificated by gurus who has 20+
+                           experience years
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 row justify-content-start">
+                     <div class="col-lg-2">
+                        <i class="fa-solid fa-wallet"></i>
+                     </div>
+                     <div class="col-lg-10">
+                        <h2>No prepaypayment required</h2>
+                        <p>
+                           Just provide us your Social Security Number and It’s
+                           all done
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 row justify-content-start">
+                     <div class="col-lg-2">
+                        <i class="fa-solid fa-plus"></i>
+                     </div>
+                     <div class="col-lg-10">
+                        <h2>And more features</h2>
+                        <p>
+                           This space is too small to show you everything we
+                           have
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 row justify-content-start">
+                     <div class="col-lg-2">
+                        <i class="fa-regular fa-heart"></i>
+                     </div>
+                     <div class="col-lg-10">
+                        <h2>Trusted by 10+ clients</h2>
+                        <p>
+                           We have 10k+ happy clients who love us and ready for
+                           our cars
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 row justify-content-start">
+                     <div class="col-lg-2">
+                        <i class="fa-solid fa-x"></i>
+                     </div>
+                     <div class="col-lg-10">
+                        <h2>Free cancelation</h2>
+                        <p>No extra fee, you can cancel your booking anytime</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- end setion icons -->
+      <!-- start section provide -->
+
+      <section class="pro text-center" id="pro">
+         <div class="container">
+            <div class="item row justify-content-end mb-5">
+               <div class="col-lg-6">
+                  <h2>
+                     We provide<br />
+                     premium car with high quality
+                  </h2>
+                  <p>CERTIFICATED BY GURUS</p>
+                  <article>
+                     Our company was built by trust and reputation. We know how
+                     to make our customers love us by our high quality products
+                     with affordable prices. We promise to make you have the
+                     interesting experiences
+                  </article>
+                  <button class="btn">RENT NOW</button>
+               </div>
+            </div>
+            <div class="img">
+               <img src="imgs/home2-banner2.jpg" alt="" />
+               <a class="overlay" href="#"></a>
+            </div>
+            <div class="imgs">
+               <div class="row">
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                     <div class="item">
+                        <img src="imgs/3-manu_default.jpg" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                     <div class="item">
+                        <img src="imgs/4-manu_default.jpg" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                     <div class="item">
+                        <img src="imgs/5-manu_default.jpg" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                     <div class="item">
+                        <img src="imgs/6-manu_default.jpg" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                     <div class="item">
+                        <img src="imgs/7-manu_default.jpg" alt="" />
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                     <div class="item">
+                        <img src="imgs/8-manu_default.jpg" alt="" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End section provide -->
+
+      <!-- start section cars -->
+      <section class="cars" id="cars">
+         <div class="container">
+            <div class="head">
+               <h1>Featured cars</h1>
+               <p class="feature">YOU MAY FALL IN LOVE</p>
+            </div>
+            <div
+               class="row text-start justify-content-evenly"
+               id="feature_Cars"
+            ></div>
+         </div>
+      </section>
+      <!-- End section cars -->
+
+      <!-- start section comments -->
+      <section class="comment text-center">
+         <div class="container">
+            <div class="owl-carousel owl-theme">
+               <div class="item">
+                  <h4>
+                     My wife and I had a great car for rent in 5 days with
+                     affordable price. They also called us everyday just to ask
+                     how we feel. Nice support, guys!
+                  </h4>
+                  <div class="profile row">
+                     <div class="col-lg-4">
+                        <div class="img">
+                           <img src="imgs/img-testi-2.png" alt="" />
+                        </div>
+                     </div>
+                     <div class="col-lg-8">
+                        <h4>Cris Angela</h4>
+                        <p>Review via Facebook</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <h4>
+                     My wife and I had a great car for rent in 5 days with
+                     affordable price. They also called us everyday just to ask
+                     how we feel. Nice support, guys!
+                  </h4>
+                  <div class="profile row">
+                     <div class="col-lg-4">
+                        <div class="img">
+                           <img src="imgs/teti1.png" alt="" />
+                        </div>
+                     </div>
+                     <div class="col-lg-8">
+                        <h4>Cris Angela</h4>
+                        <p>Review via Facebook</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- <div class="item"><h4>4</h4></div>
+               <div class="item"><h4>5</h4></div>
+               <div class="item"><h4>6</h4></div>
+               <div class="item"><h4>7</h4></div>
+               <div class="item"><h4>8</h4></div>
+               <div class="item"><h4>9</h4></div>
+               <div class="item"><h4>10</h4></div>
+               <div class="item"><h4>11</h4></div>
+               <div class="item"><h4>12</h4></div> -->
+            </div>
+         </div>
+      </section>
+
+      <!-- end section comments -->
+
+      <!-- start section enough -->
+      <section class="enough mt-3 mb-5">
+         <div class="container w-75">
+            <div class="row justify-content-between align-items-center">
+               <div class="col-lg-6 col-sm-6 text-start">
+                  <h2>Enough reason for you?</h2>
+               </div>
+               <div class="col-lg-4 col-sm-4 text-end">
+                  <button class="btn">rent a car now</button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- end section enough -->
+
+      <!-- start footer -->
+      <footer class="mt-5">
+         <div class="container w-75">
+            <div class="row">
+               <div class="col-lg-4 col-md-4">
+                  <div class="item">
+                     <div class="foot_logo w-25">
+                        <a href="#">
+                           <img
+                              src="imgs/leo-rent-car-logo-1533114693.jpg"
+                              alt=""
+                           />
+                        </a>
+                     </div>
+
+                     <div class="item">
+                        <h6>location</h6>
+                        <p>
+                           No2 - 29th floor - 221b Baker street - London -
+                           United Kingdom
+                        </p>
+                     </div>
+                     <div class="item">
+                        <h6>call us</h6>
+                        <p>(+01). 123. 456. 789</p>
+                     </div>
+                     <div class="item">
+                        <h6>support main</h6>
+                        <p>mazenessam80@gmail.com</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                  <div class="item2"><h3>Latest news</h3></div>
+                  <div class="item2">
+                     <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-3">
+                           <div class="img">
+                              <img src="imgs/b-blog-7.jpg" alt="" />
+                           </div>
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-sm-9">
+                           <a href="#"
+                              >Lorem ipsum dolor sit amet adipisicing elit.</a
+                           >
+                           <h6 class="mt-2">DEC 18TH 2013</h6>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item2">
+                     <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-3">
+                           <div class="img">
+                              <img src="imgs/b-blog-6.jpg" alt="" />
+                           </div>
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-sm-9">
+                           <a href="#"
+                              >Lorem ipsum dolor sit amet adipisicing elit.</a
+                           >
+                           <h6 class="mt-2">DEC 18TH 2013</h6>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                  <div class="item3"><h3>NewsLetter</h3></div>
+                  <div class="item3">
+                     <input type="text" /><a href="#"
+                        ><i class="fa-solid fa-paper-plane"></i
+                     ></a>
+                  </div>
+                  <div class="item3"><p>Connect with us on</p></div>
+                  <div class="item3">
+                     <div class="row text-center justify-content-between">
+                        <div class="col-lg-2 f_1 col-md-3 col-sm-2">
+                           <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="col-lg-2 f_2 col-md-3 col-sm-2">
+                           <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="col-lg-2 f_3 col-md-3 col-sm-2">
+                           <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="col-lg-2 f_4 col-md-3 col-sm-2">
+                           <i class="fa-brands fa-instagram"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copy">
+               <div class="row mb-0">
+                  <div class="col-lg-6 col-md-6">
+                     <p>
+                        2018 © Zolacar. All right reserved. Designed by Leotheme
+                     </p>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                     <ul class="row justify-content-end text-end">
+                        <li class="col-lg-4 col-md-4 col-sm-4">
+                           <a
+                              href="https://demo1.leotheme.com/leo_rent_car_demo/en/sitemap"
+                              target="_self"
+                              >Sitemap</a
+                           >
+                        </li>
+                        <li class="col-lg-4 col-md-4 col-sm-4 text-center">
+                           <a
+                              href="https://demo1.leotheme.com/leo_rent_car_demo/en/content/3-terms-and-conditions-of-use"
+                              target="_self"
+                              >Terms &amp; condition</a
+                           >
+                        </li>
+                        <li class="col-lg-4 col-md-4 col-sm-4 text-start">
+                           <a href="#" target="_self">F.A.Qs</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- end footer -->
+      <script src="js/jquery-3.6.3.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>
